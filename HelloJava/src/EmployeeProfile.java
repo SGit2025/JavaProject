@@ -1,6 +1,7 @@
 import java.util.Scanner;
 public class EmployeeProfile {
     public static void main(String[] args){
+        //Day2
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Employee Profile: ");
