@@ -17,18 +17,16 @@ public class LogInValidator {
         String password = "1234";
 
         //if(username1==username && password1==password){
-            //System.out.println("Your username and password is matched successfully ");
+        //System.out.println("Your username and password is matched successfully ");
         //} this is the mistake I made
         //if(username1.equals(username) && password1.equals(password)){
         //System.out.println("✅ Login Successful, Welcome Bro!");
         //} this is onw way another way is also there
-        if(!username1.equals(username)) {
+        if (!username1.equals(username)) {
             System.out.println("❌ Incorrect Username");
-        }
-        else if(!password1.equals(password)) {
+        } else if (!password1.equals(password)) {
             System.out.println("❌ Incorrect Password");
-        }
-        else {
+        } else {
             System.out.println("✅ Login Successful, Welcome Bro!");
         }
     }
